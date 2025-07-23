@@ -1,0 +1,495 @@
+{
+  "context": {
+    "projectPath": "C:/Users/nlourimi/LASTONEWLH/Packages",
+    "unityVersion": "6000.0.34f1"
+  },
+  "inputs": [
+    "C:\\Users\\nlourimi\\LASTONEWLH\\Packages\\manifest.json",
+    "C:\\Users\\nlourimi\\LASTONEWLH\\Packages\\packages-lock.json"
+  ],
+  "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.2d.sprite",
+      "fingerprint": "6e37a90069af6bceba270d5e592cd6f3521c7a27",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.collab-proxy@2.8.2": {
+      "name": "com.unity.collab-proxy",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.collab-proxy",
+      "fingerprint": "c854d1f7d97fbe1905f3e3591ded6fe77d96e654",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.8.2",
+      "source": "registry"
+    },
+    "com.unity.feature.development@1.0.2": {
+      "name": "com.unity.feature.development",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.feature.development",
+      "fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
+      "version": "1.0.2",
+      "source": "builtin"
+    },
+    "com.unity.inputsystem@1.13.1": {
+      "name": "com.unity.inputsystem",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.inputsystem",
+      "fingerprint": "e2c83221d2dc3fc990b017cbd3f9d0742649c8a8",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.13.1",
+      "source": "registry"
+    },
+    "com.unity.learn.iet-framework@4.1.0": {
+      "name": "com.unity.learn.iet-framework",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.learn.iet-framework",
+      "fingerprint": "4d203d31812c006d959510942994e8ef5f4f236b",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "4.1.0",
+      "source": "registry"
+    },
+    "com.unity.multiplayer.center@1.0.0": {
+      "name": "com.unity.multiplayer.center",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.multiplayer.center",
+      "fingerprint": "f502d8ac613fa076192423e73892fbd89eb4049b",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.nuget.newtonsoft-json@3.2.1": {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json",
+      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "3.2.1",
+      "source": "registry"
+    },
+    "com.unity.render-pipelines.universal@17.0.3": {
+      "name": "com.unity.render-pipelines.universal",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.render-pipelines.universal",
+      "fingerprint": "18ddc9f21c783fcaa6298e2bb6cfcd309eb6ba95",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.test-framework@1.4.6": {
+      "name": "com.unity.test-framework",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.test-framework",
+      "fingerprint": "5ac417e07314c8f6afba8109738c32b82d391e68",
+      "editorCompatibility": "2019.4.1f1",
+      "version": "1.4.6",
+      "source": "registry"
+    },
+    "com.unity.xr.arfoundation@6.1.0": {
+      "name": "com.unity.xr.arfoundation",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.xr.arfoundation",
+      "fingerprint": "238c430a597649b82e264a638f05cac105c9425c",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "6.1.0",
+      "source": "registry"
+    },
+    "com.unity.xr.hands@1.5.1": {
+      "name": "com.unity.xr.hands",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.xr.hands",
+      "fingerprint": "860f3562c229c2228869eacf1aacac0f8863bc80",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.5.1",
+      "source": "registry"
+    },
+    "com.unity.xr.interaction.toolkit@3.1.2": {
+      "name": "com.unity.xr.interaction.toolkit",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.xr.interaction.toolkit",
+      "fingerprint": "42ef3600567b34a1e5aea8aad2362e1e335d4e7c",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.1.2",
+      "source": "registry"
+    },
+    "com.unity.xr.management@4.5.1": {
+      "name": "com.unity.xr.management",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.xr.management",
+      "fingerprint": "20be87dea58031bdc9e932e7e7cbe7d270db0e4a",
+      "editorCompatibility": "2020.3.15f1",
+      "version": "4.5.1",
+      "source": "registry"
+    },
+    "com.unity.xr.meta-openxr@2.1.0": {
+      "name": "com.unity.xr.meta-openxr",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.xr.meta-openxr",
+      "fingerprint": "aee2fa51cb2be6ff64039913952cf305f39f4814",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.1.0",
+      "source": "registry"
+    },
+    "com.unity.xr.openxr@1.14.3": {
+      "name": "com.unity.xr.openxr",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.xr.openxr",
+      "fingerprint": "3903c1059bcf18e6a894f8aa2076f2a8267716bd",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.14.3",
+      "source": "registry"
+    },
+    "com.unity.modules.accessibility@1.0.0": {
+      "name": "com.unity.modules.accessibility",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.accessibility",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.ai@1.0.0": {
+      "name": "com.unity.modules.ai",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.ai",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.androidjni@1.0.0": {
+      "name": "com.unity.modules.androidjni",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.androidjni",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.assetbundle@1.0.0": {
+      "name": "com.unity.modules.assetbundle",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.assetbundle",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.cloth@1.0.0": {
+      "name": "com.unity.modules.cloth",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.cloth",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.director@1.0.0": {
+      "name": "com.unity.modules.director",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.director",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.particlesystem@1.0.0": {
+      "name": "com.unity.modules.particlesystem",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.particlesystem",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.screencapture@1.0.0": {
+      "name": "com.unity.modules.screencapture",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.screencapture",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrain@1.0.0": {
+      "name": "com.unity.modules.terrain",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.terrain",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrainphysics@1.0.0": {
+      "name": "com.unity.modules.terrainphysics",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.terrainphysics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.tilemap@1.0.0": {
+      "name": "com.unity.modules.tilemap",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.tilemap",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.uielements",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.umbra@1.0.0": {
+      "name": "com.unity.modules.umbra",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.umbra",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unityanalytics@1.0.0": {
+      "name": "com.unity.modules.unityanalytics",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.unityanalytics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequest@1.0.0": {
+      "name": "com.unity.modules.unitywebrequest",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestaudio@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequesttexture@1.0.0": {
+      "name": "com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestwww@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.vehicles@1.0.0": {
+      "name": "com.unity.modules.vehicles",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.vehicles",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.video@1.0.0": {
+      "name": "com.unity.modules.video",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.video",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.vr@1.0.0": {
+      "name": "com.unity.modules.vr",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.vr",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.wind@1.0.0": {
+      "name": "com.unity.modules.wind",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.wind",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.xr@1.0.0": {
+      "name": "com.unity.modules.xr",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.xr",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.subsystems@1.0.0": {
+      "name": "com.unity.modules.subsystems",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.subsystems",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.xr.core-utils@2.5.1": {
+      "name": "com.unity.xr.core-utils",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.xr.core-utils",
+      "fingerprint": "c0df0dd5bced783e855e63d640484ff72ea7dea8",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.5.1",
+      "source": "registry"
+    },
+    "com.unity.xr.legacyinputhelpers@2.1.11": {
+      "name": "com.unity.xr.legacyinputhelpers",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers",
+      "fingerprint": "a3936666e06871a5fd0461a69a4d99efb31a21c1",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.1.11",
+      "source": "registry"
+    },
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.mathematics",
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.2",
+      "source": "registry"
+    },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.ugui",
+      "fingerprint": "fd5da3b4bec8d043b01c30177bd62059c5fa36d0",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin"
+    },
+    "com.unity.editorcoroutines@1.0.0": {
+      "name": "com.unity.editorcoroutines",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.editorcoroutines",
+      "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
+      "editorCompatibility": "2018.1.0a1",
+      "version": "1.0.0",
+      "source": "registry"
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.ext.nunit",
+      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "registry"
+    },
+    "com.unity.render-pipelines.core@17.0.3": {
+      "name": "com.unity.render-pipelines.core",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.render-pipelines.core",
+      "fingerprint": "668d69e61fc4f03c821b6a3e669d05e3cf380460",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.shadergraph@17.0.3": {
+      "name": "com.unity.shadergraph",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.shadergraph",
+      "fingerprint": "9111176982208cf007caa931c3cf2716ceec4632",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.render-pipelines.universal-config@17.0.3": {
+      "name": "com.unity.render-pipelines.universal-config",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.render-pipelines.universal-config",
+      "fingerprint": "fa63c96d3e1af317d84d171cd6c0e0658ab159df",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.settings-manager@2.0.1": {
+      "name": "com.unity.settings-manager",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.settings-manager",
+      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.0.1",
+      "source": "registry"
+    },
+    "com.unity.ide.visualstudio@2.0.22": {
+      "name": "com.unity.ide.visualstudio",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.ide.visualstudio",
+      "fingerprint": "8140e851d83e922ca2021b04a89519de94ebe38c",
+      "editorCompatibility": "2019.4.25f1",
+      "version": "2.0.22",
+      "source": "registry"
+    },
+    "com.unity.ide.rider@3.0.31": {
+      "name": "com.unity.ide.rider",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.ide.rider",
+      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
+      "editorCompatibility": "2019.2.6f1",
+      "version": "3.0.31",
+      "source": "registry"
+    },
+    "com.unity.performance.profile-analyzer@1.2.3": {
+      "name": "com.unity.performance.profile-analyzer",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.performance.profile-analyzer",
+      "fingerprint": "a68e7bc849973d943853204178d08a2bc7656ffe",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "1.2.3",
+      "source": "registry"
+    },
+    "com.unity.testtools.codecoverage@1.2.6": {
+      "name": "com.unity.testtools.codecoverage",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.testtools.codecoverage",
+      "fingerprint": "205a02cbcb39584f20b51c49b853047aceb3a3a7",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "1.2.6",
+      "source": "registry"
+    },
+    "com.unity.searcher@4.9.2": {
+      "name": "com.unity.searcher",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.searcher",
+      "fingerprint": "90d011a70418fd5b0f4b8e86df39444d2af228dd",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.2",
+      "source": "registry"
+    },
+    "com.unity.burst@1.8.18": {
+      "name": "com.unity.burst",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.burst",
+      "fingerprint": "616862665d8c8ffe643d505aebb5de2ee73b0ab0",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "1.8.18",
+      "source": "registry"
+    },
+    "com.unity.collections@2.5.1": {
+      "name": "com.unity.collections",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.collections",
+      "fingerprint": "56bff8827a7ef6d44fcee4f36e558a74da89c1a0",
+      "editorCompatibility": "2022.3.11f1",
+      "version": "2.5.1",
+      "source": "registry"
+    },
+    "com.unity.rendering.light-transport@1.0.1": {
+      "name": "com.unity.rendering.light-transport",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.rendering.light-transport",
+      "fingerprint": "307bc27a498fc9cd409bbd426c85d8dc7f140bc1",
+      "editorCompatibility": "2023.3.0b1",
+      "version": "1.0.1",
+      "source": "builtin"
+    },
+    "com.unity.nuget.mono-cecil@1.11.4": {
+      "name": "com.unity.nuget.mono-cecil",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.nuget.mono-cecil",
+      "fingerprint": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "1.11.4",
+      "source": "registry"
+    },
+    "com.unity.test-framework.performance@3.0.3": {
+      "name": "com.unity.test-framework.performance",
+      "resolvedPath": "C:\\Users\\nlourimi\\LASTONEWLH\\Library\\PackageCache\\com.unity.test-framework.performance",
+      "fingerprint": "fb0dc592af8b524f1a06c50d7caf95552f1bcd2f",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "3.0.3",
+      "source": "registry"
+    }
+  }
+}

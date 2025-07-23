@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6569642368010021734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7298169563355200740}
+  - component: {fileID: 6177422071188390318}
+  m_Layer: 0
+  m_Name: Screens
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7298169563355200740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6569642368010021734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.535, y: 1.182, z: 0.612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6177422071188390318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6569642368010021734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f90313763f221b42aa43324fdd947ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headTransform: {fileID: 0}
+  screenTransform: {fileID: 0}
+  standingHeightThreshold: 1.4
+  horizontalArcRadius: 0.6
+  horizontalArcAngleDegrees: 20
+  horizontalArcSpeed: 0.25
+  squareSideLength: 3
+  movementSpeed: 0.005
+  turnSpeed: 0.005
+  standingOffset: {x: 0, y: 0.2, z: 0.6}
+  keyboardAngle: 25
+  stabilityRadius: 0.5
+  pivotTransform: {fileID: 0}
+  useHeadInitialPositionAsPivot: 0
+  maxPitchAngle: 60
+  movementSpeedDegreesPerSecond: 0.05
+  transitionSpeed: 5
+  maxRotationOffsets: {x: 1, y: 0.5, z: 0.8}
+  rotationSpeeds: {x: 0.02, y: 0.015, z: 0.01}
+  extraSpeedWhenNotLooking: 0.05
+  gazeThresholdDegrees: 15
