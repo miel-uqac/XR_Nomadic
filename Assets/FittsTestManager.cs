@@ -121,7 +121,7 @@ public class FittsTestUI : MonoBehaviour
         // ✅ Set the visible text
         if (scoreText != null)
         {
-            scoreText.text = $"TP: {throughput:F2} bps";
+            scoreText.text = $"TP:{throughput:F2}";
         }
 
         SpawnNewTarget();

@@ -40,10 +40,10 @@ public class ScreenHeightAutoAdjust : MonoBehaviour
     private bool isMovingRight = false;
     private bool isMovingLeftBack = false;
     private bool waitingForUserToReachRight = false;
-    private bool hasUserMovedAwayFromCenter = false;
+    private bool hasUserMovedAwayFromCenter = false; 
     private Vector3 originalUserPosition;
     public string screenLogFilename = "screen_movement_log.csv";
-    private string screenLogHeader = "Time;UserPosX;UserPosY;UserPos;ScreenPosX;ScreenPosY;ScreenPosZ;Distance;MoveSpeed;TargetTilt";
+    private string screenLogHeader = "Time;UserPosX;UserPosY;UserPosZ;UserRotX;UserRotY;UserRotZ;ScreenPosX;ScreenPosY;ScreenPosZ;ScreenRotX;ScreenRotY;ScreenRotZ;Distance;MoveSpeed;TargetTilt";
 
     private Quaternion defaultRotation;
     private bool shouldTilt = false;
@@ -122,16 +122,23 @@ public class ScreenHeightAutoAdjust : MonoBehaviour
         CheckUserPositionForReturn();
     }
 
-    void LogMovement(float moveSpeed)
-    {
-        float distance = Vector3.Distance(headReference.position, screen.position);
-        string line = $"{Time.time:F2};" +
-                      $"{headReference.position.x:F2};{headReference.position.y:F2};{headReference.position.z:F2};" +
-                      $"{screen.position.x:F2};{screen.position.y:F2};{screen.position.z:F2};" +
-                      $"{distance:F2};{moveSpeed:F2};{targetTiltAngle:F2}";
+void LogMovement(float moveSpeed)
+{
+    float distance = Vector3.Distance(headReference.position, screen.position);
 
-        Logger.LogLine(screenLogFilename, screenLogHeader, line, true); // ✅ true = append
-    }
+    Vector3 userRotation = headReference.rotation.eulerAngles;
+    Vector3 screenRotation = screen.rotation.eulerAngles;
+
+    string line = $"{Time.time:F2};" +
+                  $"{headReference.position.x:F2};{headReference.position.y:F2};{headReference.position.z:F2};" +
+                  $"{userRotation.x:F2};{userRotation.y:F2};{userRotation.z:F2};" +
+                  $"{screen.position.x:F2};{screen.position.y:F2};{screen.position.z:F2};" +
+                  $"{screenRotation.x:F2};{screenRotation.y:F2};{screenRotation.z:F2};" +
+                  $"{distance:F2};{moveSpeed:F2};{targetTiltAngle:F2}";
+
+    Logger.LogLine(screenLogFilename, screenLogHeader, line, true); // ✅ true = append
+}
+
 
 
     void UpdateActiveScreen()

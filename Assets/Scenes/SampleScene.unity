@@ -795,7 +795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &88208128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7139,7 +7139,7 @@ MonoBehaviour:
   rightOffsetDistance: 0.5
   horizontalMoveSpeed: 0.0012
   delayBeforeRightMove: 0.5
-  anglePerSecond: 10
+  anglePerSecond: 0.1
   eyeOffset: 0.1
   ergonomicTilt: 10
   tiltAngleX: 50
